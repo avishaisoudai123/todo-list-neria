@@ -1,0 +1,90 @@
+.container{
+   margin-left: 25%;
+   margin-right: 25%;
+   display: flex;
+   flex-direction: column;
+   border:1px solid gray;
+   
+}
+.assigment{
+  /* border :1px solid black; */
+ text-align: center;
+ 
+}
+.input_assigment{
+width: 100%;
+box-sizing: border-box;
+padding: 10px;
+}
+.todo_done{
+  display: flex;
+  justify-content:space-between;
+  /* border :1px solid black; */
+  text-align: center;
+  box-sizing: border-box;
+ 
+}
+.tobutton{
+  width: 50%; 
+  padding: 5px;
+  background-color: aqua;
+  color: blueviolet;
+}
+
+.donebutton{
+  width: 50%;
+  padding: 5px;
+  background-color: blue;
+  color:aliceblue;
+}
+
+
+.swith{
+  /* border :1px solid black; */
+  text-align: center;
+  box-sizing: border-box;
+  background-color:cadetblue;
+
+
+}
+.sw_button{
+ background-color: rgb(149, 101, 13);
+  color:black;
+width: 100%;
+padding:5px;
+}
+.newtext{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+ height: 250px;
+ overflow: scroll;
+  
+}
+ol{
+  display: flex;
+  flex-direction: column;
+}
+li{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  font-weight:600;
+  color:red;
+  box-sizing: border-box;
+  
+ 
+  
+}
+ /* ol.rowbutton{
+  display: flex;
+  flex-direction: row;
+   justify-content:end;
+
+} */
+span{
+display: flex;
+justify-content: end;
+}
+   
